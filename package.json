@@ -1,0 +1,36 @@
+{
+    "name": "myfastify",
+    "version": "1.0.0",
+    "description": "Base Fastify repo for tests. TS + mongo + Fastify 3.0^😍",
+    "main": "index.ts",
+    "scripts": {
+        "build": "tsc -p tsconfig.json",
+        "start": "ts-node index.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leonardootoni/myfastify.git"
+    },
+    "keywords": [],
+    "author": "Leonardo Otoni de Assis",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/leonardootoni/myfastify/issues"
+    },
+    "homepage": "https://github.com/leonardootoni/myfastify#readme",
+    "dependencies": {
+        "fastify": "^3.4.1"
+    },
+    "devDependencies": {
+        "@types/node": "^14.11.2",
+        "@typescript-eslint/eslint-plugin": "^4.2.0",
+        "@typescript-eslint/parser": "^4.2.0",
+        "eslint": "^7.9.0",
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-import": "^2.22.0",
+        "prettier": "2.1.2",
+        "ts-node": "^9.0.0",
+        "typescript": "^4.0.3"
+    }
+}

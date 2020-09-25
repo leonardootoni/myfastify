@@ -1,0 +1,5 @@
+build
+coverage
+.eslintignore
+.gitignore
+README.md
